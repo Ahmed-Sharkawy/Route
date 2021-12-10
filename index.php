@@ -320,12 +320,12 @@
 
 // foreach ($newName as $name) {
 
-    
+
 //     $newntent = str_replace("name", $name, $content);
 //     $newContent = str_replace("22/12/2021", date("d/m/Y"), $content);
 
 //     fopen("$name.html", "w+");
-    
+
 //     file_put_contents("$name.html", $newContent);
 //     file_put_contents("$name.html", $newntent);
 
@@ -334,29 +334,73 @@
 
 
 
-$name = explode("," , $_POST['num1'] );
+// $name = explode("," , $_POST['num1'] );
 
-$Content = file_get_contents("certificate.html");
+// $Content = file_get_contents("certificate.html");
 
-foreach ($name as $key) {
+// foreach ($name as $key) {
 
-    $nameContent = str_replace("name" , "$key" , $Content);
-    $nameContent = str_replace("22/12/2021", date("Y/m/d"), $nameContent);
-    $nameContent = str_replace("course", $_POST['num2'], $nameContent);
+//     $nameContent = str_replace(["name", "22/12/2021", "course"] , ["$key", date("d/m/Y"), $_POST['num2']] , $Content);
+//     // $nameContent = str_replace("22/12/2021", date("d/m/Y"), $nameContent);
+//     // $nameContent = str_replace("course", $_POST['num2'], $nameContent);
 
-    fopen("$key.html" , "w");
+//     fopen("$key.html" , "w");
 
-    file_put_contents("$key.html" , $nameContent);
-}
-
-
-
+//     file_put_contents("$key.html" , $nameContent);
+// }
+// header("location:$key.html");
 
 
+// $name = $_POST['name'];
+
+// $password = $_POST['password'];
+
+// if($name == "ahmed" && $password == "ahmed") {
+//     setcookie($name , "route" , time() + 60 * 60 * 24, "/");
+// }
+
+// $hexMessage = '596f7520636f6e76657274656420697420636f72726563746c7921';
+// echo hex2bin($hexMessage);
+// echo "<br>" . bin2hex('You converted it correctly');
+
+
+// $htmlContent = "<h1>PHP track</h1><p>PHP is an interpreted language</p>";
+// echo strip_tags($htmlContent);
+// echo htmlspecialchars($htmlContent);
+// echo "<pre>";
+// print_r($_SERVER);
+// echo '<br>';
+// $aa = $_SERVER["REQUEST_TIME_FLOAT"];
 
 
 
 
+// for ($i=0; $i < 1; $i++) { 
+//     echo $i . '<br>';
+// }
+// $as = $_SERVER["REQUEST_TIME_FLOAT"];
+
+// $totol = $aa - $as ;
+
+// echo $totol;
+
+// print_r($_POST);
+
+// echo "<pre>";
+// print_r($_FILES);
 
 
 
+// $tmp_name = $_FILES['name']['tmp_name'];
+// $name = $_FILES['name']['name'];
+// move_uploaded_file($tmp_name,"up/". $name);
+
+echo -5 + 8 * 6 ."<br>";
+echo (55+9) % 9 . "<br>";
+echo 20 + -3 * 5 / 8  % 3 . "<br>";
+echo 5 + 15 / 3 * 2 - 8 % 3  . "<br>";
+
+$username = " Kareem Fouad ";
+
+echo  $username . "<br>" ;
+echo trim($username);
