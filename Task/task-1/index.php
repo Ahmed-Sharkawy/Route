@@ -35,15 +35,31 @@ echo number_format($num, 2);
 echo '<hr>Q5<br>';
 
 $employeePositions = [
-  'kareem fouad =>'    => ' backend',
-  'ahmed bahnasy =>'   => ' frontend',
-  'mohammed nabeel =>' => ' android',
+  'kareem fouad'    => ' backend',
+  'ahmed bahnasy'   => ' frontend',
+  'mohammed nabeel' => ' android',
 ];
 
 foreach ($employeePositions as $key => $value) {
-  echo $key;
+  echo $key . ' => ';
   echo $value . '<br>';
 }
+
+foreach ($employeePositions as $key => $value) {
+  $ar1[] = $key;
+  $ar2[] = $value;
+}
+echo '<pre>';
+print_r($ar1);
+print_r($ar2);
+echo '</pre>';
+
+echo '<hr>';
+
+echo '<pre>';
+print_r(array_keys($employeePositions));
+print_r(array_values($employeePositions));
+echo '</pre>';
 
 // Q6
 echo '<hr>Q6<br>';
