@@ -7,15 +7,15 @@
 //   public $br;
 //   private $maher = "Maher";
 
-//   // public function __construct()
-//   // {
-//   //   echo $this-> ahmed = "Ahmed";
-//   //   echo $this-> br = "<br>";
-//   // }
-
-//   public function date()
+//   public function __construct()
 //   {
-//     // return date("Y") - $date;
+//     echo $this-> ahmed = "Ahmed";
+//     echo $this-> br = "<br>";
+//   }
+
+//   public function date($date)
+//   {
+//     return date("Y") - $date;
 //     return $this->ahmed = "aa";
 //   }
 
@@ -26,7 +26,7 @@
 // }
 
 // $add = new Add();
-// echo $add->date() . "</br>";
+// echo $add->date(1998) . "</br>";
 // echo $add->ww() . "</br>";
 // echo "<pre>";
 // print_r($add);
