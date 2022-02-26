@@ -3,26 +3,26 @@
 // 80 => 6
 // 90 => 10
 // 92 => 11
-// $oil = 92;
-// $L = 20;
+$oil = 92;
+$L = 20;
 
 
-// if ($oil == 80) {
+if ($oil == 80) {
 
-//     echo $L * 6;
+    echo $L * 6;
 
-// } else if ($oil == 90){
+} else if ($oil == 90){
 
-//     echo $L * 10;
+    echo $L * 10;
 
-// } else if ($oil == 92){
+} else if ($oil == 92){
 
-//     echo $L * 11;
+    echo $L * 11;
 
-// } else {
+} else {
 
-//     echo "No oil";
-// }
+    echo "No oil";
+}
 
 
 
@@ -106,7 +106,7 @@
 //         echo "$name</br>";
 //     }
 //     ++$name;
-// } 
+// }
 
 
 // $i = 0;
@@ -125,7 +125,7 @@
 
 // $a = ["html", "css", "js", "php", "mysql",];
 
-// for ($i=0; $i < count($a); $i++) { 
+// for ($i=0; $i < count($a); $i++) {
 //     echo $a[$i] . "</br>";
 // }
 
@@ -160,7 +160,7 @@
 //         "firesname" => "ahmed",
 //         "lastname" => "al sharkawy",
 //         "age" => 23
-//     ], 
+//     ],
 //     [
 //         "firesname" => "ahmed",
 //         "lastname" => "al sharkawy",
@@ -243,9 +243,9 @@
 // age($age);
 
 
-// for ($i=0; $i < 10; $i++) { 
+// for ($i=0; $i < 10; $i++) {
 
-//     for ($t=0; $t <= $i; $t++) { 
+//     for ($t=0; $t <= $i; $t++) {
 //         echo "*";
 //     }
 //     echo "</br>";
@@ -306,7 +306,7 @@
 // setcookie("ahmed","route", time() + 60 * 60 * 24, "/");
 
 // if ($_COOKIE > 0 ) {
-//     header("Refresh:5; url=index.html");    
+//     header("Refresh:5; url=index.html");
 // }
 
 // echo "a" > 1;
@@ -375,7 +375,7 @@
 
 
 
-// for ($i=0; $i < 1; $i++) { 
+// for ($i=0; $i < 1; $i++) {
 //     echo $i . '<br>';
 // }
 // $as = $_SERVER["REQUEST_TIME_FLOAT"];
